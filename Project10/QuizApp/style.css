@@ -32,28 +32,10 @@ h2 {
 ul {
   list-style-type: none;
   padding: 0;
-  margin-top: 15px;
-  width: 70%;
-  display: inline-block;
 }
 
 li {
   background-color: #333333;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-input[type="text"] {
-  width: 70%;
-  padding: 10px;
-  background-color: #333333;
-  border: none;
-  border-radius: 5px;
-  color: #fff;
-  outline: none;
 }
 
 button {

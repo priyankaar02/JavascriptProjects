@@ -18,7 +18,7 @@ body {
   background-color: #1e1e1e;
   padding: 20px;
   border-radius: 10px;
-  width: 400px;
+  width: 530px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -29,37 +29,28 @@ h2 {
   font-size: 24px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin-top: 15px;
-  width: 70%;
-  display: inline-block;
-}
-
-li {
-  background-color: #333333;
+form {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px;
-  margin-bottom: 20px;
 }
 
-input[type="text"] {
-  width: 70%;
+input[type="text"],
+input[type="number"] {
+  width: 45%;
   padding: 10px;
   background-color: #333333;
   border: none;
   border-radius: 5px;
   color: #fff;
   outline: none;
+  margin: 3px;
 }
 
 button {
+  padding: 10px;
   background-color: #6200ea;
   border: none;
-  padding: 5px 10px;
   color: #fff;
   border-radius: 5px;
   cursor: pointer;
@@ -68,6 +59,25 @@ button {
 
 button:hover {
   background-color: #3700b3;
+}
+
+#expense-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#expense-list li {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#total {
+  text-align: right;
 }
 
 .hidden {
